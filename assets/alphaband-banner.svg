@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title description">
+  <title id="title">Alpha Band Detection and Staging</title>
+  <desc id="description">Colorful gradient banner with an EEG waveform motif.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081B3A"/>
+      <stop offset="48%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#C026D3"/>
+    </linearGradient>
+    <linearGradient id="wave" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#67E8F9"/>
+      <stop offset="52%" stop-color="#A7F3D0"/>
+      <stop offset="100%" stop-color="#FDE68A"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="280" rx="28" fill="url(#background)"/>
+  <circle cx="1050" cy="50" r="155" fill="#FFFFFF" opacity=".06"/>
+  <circle cx="1140" cy="235" r="190" fill="#F0ABFC" opacity=".09"/>
+  <path d="M0 204h250l28-1 18-21 17 42 21-79 22 107 22-69 19 21h803" fill="none" stroke="url(#wave)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" opacity=".82"/>
+  <text x="64" y="106" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="21" font-weight="600" letter-spacing="4">EEG RESEARCH WORKFLOW</text>
+  <text x="60" y="163" fill="#FFFFFF" font-family="Segoe UI, Arial, sans-serif" font-size="43" font-weight="700">Alpha Band Detection</text>
+  <text x="62" y="198" fill="#E0E7FF" font-family="Segoe UI, Arial, sans-serif" font-size="25" font-weight="500">and Seizure Staging</text>
+</svg>
